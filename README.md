@@ -1,12 +1,5 @@
-# YelpCamp
-My dark themed Yelp Camp populated with Indian cities datasets. Fixed the bugs with session (due to recent update of connect-mongo)
-You might have already come across Colt Steele's Yelp Camp project. If not I am going to describe it anyway please read through to get to know my version of this.
+# CampIn
 
-YelpCamp is inspired from yelp.com. YelpCamp is a web Application in which users can find campgrounds and review them. Users can also add their own campgrounds. A map has also 
-been displayed for better searching. When a user enters a location, the map finds and shows it automatically. I have completely revamped the UI and made it into a dark mode for reducing eye strain. It is already populated with Indian cities. Implemented a fuzzy search with autocmplete feature using MongoDB Atlas search.
-## Deployment
-To see my Web Application please do visit https://yelpcamp-nivas.herokuapp.com/
-## Specifications
    - Authentication
      - User can register and login
      - Used Passport for that purpose
@@ -41,5 +34,5 @@ To see my Web Application please do visit https://yelpcamp-nivas.herokuapp.com/
      - helmet
      - mongoSanitize
      - sanitizeHtml
-### Deployed using Heroku, database on MongoDB Atlas
+
     
